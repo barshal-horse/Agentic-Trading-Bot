@@ -1,0 +1,103 @@
+# pages/5_About_Project.py
+import streamlit as st
+
+st.set_page_config(page_title="About Project", layout="wide")
+
+st.title("ℹ️ About This Project")
+
+st.subheader("🎯 Project Overview")
+st.markdown("""
+This is an **AI-Powered Automated Trading Platform** that demonstrates advanced agentic AI systems 
+for financial analysis and automated trading. The platform combines multiple AI agents, real-time 
+data, and sophisticated risk management to create a professional-grade trading system.
+
+### 🌟 Key Features:
+
+**🤖 Multi-Agent Architecture**
+- Specialized agents for analysis, execution, and risk management
+- Collaborative decision-making across different expertise areas
+- Real-time market scanning and opportunity detection
+
+**📊 Advanced Analytics**
+- Comprehensive performance tracking
+- Risk analysis and portfolio management
+- AI decision insights and pattern recognition
+
+**⚡ Real-Time Trading**
+- Paper trading with Alpaca API
+- Multi-stock portfolio management
+- Automated risk controls and position sizing
+
+**🎨 Professional UI**
+- Interactive dashboards and charts
+- Real-time market data visualization
+- Mobile-responsive design
+""")
+
+st.subheader("🛠️ Technical Architecture")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.markdown("""
+    **Core Technologies:**
+    - **Streamlit**: Web application framework
+    - **LangGraph**: Agent orchestration and workflow management
+    - **Google Gemini**: AI reasoning and decision-making
+    - **Alpaca API**: Paper trading and market data
+    - **Plotly**: Interactive charts and visualizations
+    
+    **Data Sources:**
+    - Yahoo Finance (yfinance): Market data and fundamentals
+    - NewsAPI: Real-time financial news
+    - Alpaca Markets: Trading execution and portfolio data
+    """)
+
+with col2:
+    st.markdown("""
+    **AI Components:**
+    - **Reasoning Engine**: Gemini for market analysis
+    - **Tool Calling**: Function execution for real-world actions
+    - **Multi-Agent Collaboration**: Specialized agent roles
+    - **Memory Systems**: Decision history and learning
+    
+    **Risk Management:**
+    - Position sizing (2% rule)
+    - Daily trade limits
+    - Maximum position limits
+    - Confidence-based execution
+    """)
+
+st.subheader("🚀 System Components")
+
+components = {
+    "📈 Financial Analyst": "Deep research and technical analysis for individual stocks",
+    "🤖 Paper Trading": "Manual single-stock trading with AI analysis", 
+    "🚀 Automated Trading": "Multi-stock automated portfolio management",
+    "📊 Analytics": "Performance tracking and decision insights",
+    "🛠️ Configuration": "Customizable watchlists and risk parameters"
+}
+
+for component, description in components.items():
+    st.write(f"**{component}**: {description}")
+
+st.subheader("⚠️ Important Disclaimers")
+
+st.warning("""
+**Educational Use Only**
+- This is a demonstration project for educational purposes
+- Uses paper trading with simulated money
+- Not financial advice - always do your own research
+- Past performance does not guarantee future results
+
+**Technical Limitations**
+- API rate limits may affect performance
+- Market data delays may occur
+- System should not be used with real money
+- Always test thoroughly in paper trading first
+""")
+
+st.subheader("👨‍💻 Development")
+
+st.markdown("""
+**Project Structure:**

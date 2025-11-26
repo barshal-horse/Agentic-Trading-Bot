@@ -1,0 +1,162 @@
+[
+  {
+    "timestamp": "2025-11-26T23:19:19.895640",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "shares": 56,
+    "price": 181.19500732421875,
+    "result": "\u2705 BUY order executed: 56 shares of NVDA. Order ID: b6b3e979-bbe2-4812-8c73-ac1f3c92a0d4",
+    "investment": 10146.92041015625,
+    "pnl": -10146.92041015625
+  },
+  {
+    "timestamp": "2025-11-26T23:19:21.422765",
+    "ticker": "AVGO",
+    "action": "BUY",
+    "shares": 25,
+    "price": 397.3299865722656,
+    "result": "\u2705 BUY order executed: 25 shares of AVGO. Order ID: 41cac22f-2a20-4491-a316-802f46d07c03",
+    "investment": 9933.24966430664,
+    "pnl": -9933.24966430664
+  },
+  {
+    "timestamp": "2025-11-26T23:19:22.817910",
+    "ticker": "AMD",
+    "action": "BUY",
+    "shares": 47,
+    "price": 213.3699951171875,
+    "result": "\u2705 BUY order executed: 47 shares of AMD. Order ID: d9f80212-38e2-4973-b643-75e1c9eb5f2b",
+    "investment": 10028.389770507812,
+    "pnl": -10028.389770507812
+  },
+  {
+    "timestamp": "2025-11-26T23:24:07.298431",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "shares": 56,
+    "price": 181.18499755859375,
+    "result": "\u2705 SELL order executed: 56 shares of NVDA. Order ID: 4b747ad3-1cd0-476a-9cb5-43686a8a5ef6",
+    "investment": 10146.35986328125,
+    "pnl": 10146.35986328125
+  },
+  {
+    "timestamp": "2025-11-26T23:24:07.771955",
+    "ticker": "AVGO",
+    "action": "SELL",
+    "shares": 25,
+    "price": 396.05999755859375,
+    "result": "\u2705 SELL order executed: 25 shares of AVGO. Order ID: e8001476-ecb3-4cec-a170-de5428da286d",
+    "investment": 9901.499938964844,
+    "pnl": 9901.499938964844
+  },
+  {
+    "timestamp": "2025-11-26T23:24:08.176020",
+    "ticker": "AMD",
+    "action": "SELL",
+    "shares": 47,
+    "price": 213.17999267578125,
+    "result": "\u2705 SELL order executed: 47 shares of AMD. Order ID: 98a216fd-62b3-48e9-9e46-a67652fa2537",
+    "investment": 10019.459655761719,
+    "pnl": 10019.459655761719
+  },
+  {
+    "timestamp": "2025-11-26T23:24:11.300919",
+    "ticker": "ADBE",
+    "action": "BUY",
+    "shares": 32,
+    "price": 318.2099914550781,
+    "result": "\u2705 BUY order executed: 32 shares of ADBE. Order ID: 955b5a1b-68c9-443e-b00d-502865c9f3a2",
+    "investment": 10182.7197265625,
+    "pnl": -10182.7197265625
+  },
+  {
+    "timestamp": "2025-11-26T23:26:56.884079",
+    "ticker": "ADBE",
+    "action": "SELL",
+    "shares": 32,
+    "price": 318.06500244140625,
+    "result": "\u2705 SELL order executed: 32 shares of ADBE. Order ID: bedf46cc-5d0b-48ec-a2ff-0f6d0328b0f9",
+    "investment": 10178.080078125,
+    "pnl": 10178.080078125
+  },
+  {
+    "timestamp": "2025-11-26T23:29:32.827235",
+    "ticker": "NVDA",
+    "action": "BUY",
+    "shares": 56,
+    "price": 180.9499053955078,
+    "result": "\u2705 BUY order executed: 56 shares of NVDA. Order ID: f54dbcf0-2707-40e4-8af8-450c777730f6",
+    "investment": 10133.194702148438,
+    "pnl": -10133.194702148438
+  },
+  {
+    "timestamp": "2025-11-26T23:29:35.776587",
+    "ticker": "INTC",
+    "action": "BUY",
+    "shares": 276,
+    "price": 36.994998931884766,
+    "result": "\u2705 BUY order executed: 276 shares of INTC. Order ID: 589350e4-8b47-4022-bc9e-15e0000906c9",
+    "investment": 10210.619705200195,
+    "pnl": -10210.619705200195
+  },
+  {
+    "timestamp": "2025-11-26T23:29:37.376298",
+    "ticker": "NFLX",
+    "action": "BUY",
+    "shares": 96,
+    "price": 106.28060150146484,
+    "result": "\u2705 BUY order executed: 96 shares of NFLX. Order ID: 22022d71-d4ce-4183-8291-8d3a53066a1d",
+    "investment": 10202.937744140625,
+    "pnl": -10202.937744140625
+  },
+  {
+    "timestamp": "2025-11-26T23:40:14.104284",
+    "ticker": "NVDA",
+    "action": "SELL",
+    "shares": 56,
+    "price": 180.90589904785156,
+    "result": "\u2705 SELL order executed: 56 shares of NVDA. Order ID: 6ed92654-b858-4ccc-b680-66ad8b6804af",
+    "investment": 10130.730346679688,
+    "pnl": 10130.730346679688
+  },
+  {
+    "timestamp": "2025-11-26T23:40:14.513156",
+    "ticker": "INTC",
+    "action": "SELL",
+    "shares": 276,
+    "price": 36.89500045776367,
+    "result": "\u2705 SELL order executed: 276 shares of INTC. Order ID: 681c22ad-5fc1-44f0-accc-0cc7bda78a7e",
+    "investment": 10183.020126342773,
+    "pnl": 10183.020126342773
+  },
+  {
+    "timestamp": "2025-11-26T23:40:14.984091",
+    "ticker": "NFLX",
+    "action": "SELL",
+    "shares": 96,
+    "price": 106.11060333251953,
+    "result": "\u2705 SELL order executed: 96 shares of NFLX. Order ID: 6d475714-8b23-405f-8ad6-d58ca3aeabdb",
+    "investment": 10186.617919921875,
+    "pnl": 10186.617919921875
+  },
+  {
+    "timestamp": "2025-11-26T23:46:25.953653",
+    "ticker": "MU",
+    "action": "BUY",
+    "shares": 44,
+    "price": 230.75,
+    "result": "\u2705 BUY order executed: 44 shares of MU. Order ID: 85b09c77-3d87-4784-81c7-c84412353b9c",
+    "investment": 10153.0,
+    "pnl": -10153.0
+  },
+  {
+    "timestamp": "2025-11-26T23:48:30.976969",
+    "ticker": "MU",
+    "action": "SELL",
+    "shares": 44,
+    "price": 230.6999969482422,
+    "result": "\u2705 SELL order executed: 44 shares of MU. Order ID: 4514ce8c-76b8-4fc0-94e6-3af990a18a12",
+    "investment": 10150.799865722656,
+    "pnl": 10150.799865722656
+  }
+]

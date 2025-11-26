@@ -1,0 +1,17 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langchain-tavily
+python-dotenv
+yfinance
+newsapi-python
+alpaca-py
+pandas
+matplotlib
+plotly
+seaborn
+ta-lib
+python-multipart
+streamlit-aggrid

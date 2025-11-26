@@ -1,0 +1,35 @@
+# --- Python Virtual Environment ---
+# Ignore the virtual environment folder to avoid committing packages
+venv/
+.venv/
+
+# --- Sensitive Information ---
+# CRITICAL: Ignore the .env file containing API keys and secrets
+.env
+
+# --- Python Cache Files ---
+# Ignore compiled Python files and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Streamlit ---
+# Ignore Streamlit's configuration and secrets directory
+.streamlit/
+
+# --- IDE & Editor Configuration ---
+# Ignore configuration files from popular editors
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# Ignore macOS .DS_Store files
+.DS_Store
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# --- Log and Temporary Files ---
+# Ignore log files, temporary files, etc.
+*.log
+*.tmp
